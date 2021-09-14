@@ -1,0 +1,52 @@
+.App {
+  font-family: Lato;
+
+  max-width: 70%;
+  max-height: 100%;
+  margin: auto;
+}
+body {
+  background: #e0e0e7;
+}
+
+button {
+  font-size: 20px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  background: #bfcbfeb4;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b3cdfc2;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  border: 1px solid blue;
+  width: 60%;
+  padding: 2px;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #c7d2fe;
+}
+div {
+  margin: 3px;
+  padding-top: 3px;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.artist {
+  font-size: 20px;
+  font-style: italic;
+}
